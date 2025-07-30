@@ -12,7 +12,8 @@
       "@type": "Dataset",
       "datePublished": "2025-05-25",     
       "name": "OSCAR YOLOv8 Service (by AI4OS)",
-      "description": "OSCAR Service definition for deploying the YOLOv8 image recognition model.",      
+      "description": "OSCAR Service definition for deploying the YOLOv8 image recognition model.",  
+      "invocationType": "asynchronous",
       "license": {
          "@id": "https://www.gnu.org/licenses/agpl-3.0.html",
         "name": "GNU Affero General Public License v3.0",
@@ -35,18 +36,30 @@
       },
       "hasPart": [
         { "@id": "fdl.yml" },
-        { "@id": "script.sh" }
+        { "@id": "script.sh" },
+        { "@id": "icon.png" }
       ]
     },
     {
+      "@id": "https://orcid.org/0000-0002-8049-253X",
+      "@type": "Person",
+      "affiliation": "UPV",
+      "name": "Germán Moltó"
+    },
+    {
       "@id": "fdl.yml",
-      "@type": "File",
+      "@type": ["File", "service-fdl"],
       "encodingFormat": "text/yaml"
     },
     {
       "@id": "script.sh",
-      "@type": "File",
+      "@type": ["File", "service-script"],
       "encodingFormat": "text/x-shellscript"
+    },
+     {
+      "@id": "icon.png",
+      "@type": ["File", "service-icon"],
+      "encodingFormat": "image/png"
     }
   ]
 }
