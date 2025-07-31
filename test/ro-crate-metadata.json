@@ -35,7 +35,7 @@
         "name": "Germán Moltó"
       },
       "hasPart": [
-        { "@id": "fdl.yml" },
+        { "@id": "fdl.yaml" },
         { "@id": "script.sh" },
         { "@id": "icon.png" }
       ]
@@ -47,7 +47,7 @@
       "name": "Germán Moltó"
     },
     {
-      "@id": "fdl.yml",
+      "@id": "fdl.yaml",
       "@type": ["File", "service-fdl"],
       "encodingFormat": "text/yaml"
     },
