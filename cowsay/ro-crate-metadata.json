@@ -10,7 +10,6 @@
     {
       "@id": "./",
       "@type": "Dataset",
-      "datePublished": "2025-05-25",     
       "name": "Cowsay",
       "description": "Cowsay is a configurable talking cow that can display messages in a speech bubble.",
       "invocationType": "synchronous",  

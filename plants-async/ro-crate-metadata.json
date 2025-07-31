@@ -9,8 +9,7 @@
     },
     {
       "@id": "./",
-      "@type": "Dataset",
-      "datePublished": "2025-05-25",     
+      "@type": "Dataset", 
       "name": "Plants Detection",
       "description": "Plants detection model using PyTorch.",
       "invocationType": "asynchronous",  
