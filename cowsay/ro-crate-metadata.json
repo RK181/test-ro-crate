@@ -22,7 +22,7 @@
       "hasPart": [
         { "@id": "cowsay.yaml" },
         { "@id": "script.sh" },
-        { "@id": "icon.png" }
+        { "@id": "cowsay.png" }
       ]
     },
     {
@@ -41,7 +41,7 @@
       "encodingFormat": "text/x-shellscript"
     },
      {
-      "@id": "icon.png",
+      "@id": "cowsay.png",
       "@type": ["File", "service-icon"],
       "encodingFormat": "image/png"
     }
